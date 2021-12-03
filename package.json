@@ -1,0 +1,27 @@
+{
+  "name": "moc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --config ./src/config/.mocharc.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilya-Kuzmich/Puppeteer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ilya-Kuzmich/Puppeteer/issues"
+  },
+  "homepage": "https://github.com/Ilya-Kuzmich/Puppeteer#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.3.4",
+    "puppeteer": "^12.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
