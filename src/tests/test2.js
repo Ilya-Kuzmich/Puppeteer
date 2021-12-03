@@ -14,6 +14,7 @@ describe('example spec2', function () {
 
     afterEach(() => ui.ph.close());
 
+    
     it('second test', async function () {
         await ui.ph.page.waitForResponse(resp => {
             return resp.url() === 'https://img.shields.io/npm/v/puppeteer.svg' && resp.status() === 200;
